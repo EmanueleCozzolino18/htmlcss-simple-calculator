@@ -35,6 +35,8 @@ body {
     height: 90px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .screen {
@@ -43,10 +45,41 @@ body {
     height: 90px;
 }
 
-.calc-button {
+.calc-cont {
     background-color: lightslategray;
     width: 300px;
     height: 350px;
+    display: flex;
+    flex-direction: row;
 }
 
 /* FINE CLASSI SCHELETRO CALCOLATRICE */
+
+/* INIZIO CONTENUTI CALCOLATRICE */
+.logo-pos {
+    text-align: center;
+    line-height: 90px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.calc-text {
+    color: #09D297;
+    text-align: right;
+    line-height: 90px;
+    font-size: 40px;
+    font-family: 'Seven Segment', sans-serif;
+    padding-right: 20px;
+}
+
+.veritcal-button {
+    background-color: orange;
+    height: 100%;
+    width: 70%;
+}
+
+.orizonatl-button {
+    background-color: purple;
+    height: 100%;
+    width: 30%;
+}
