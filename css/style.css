@@ -22,7 +22,6 @@ body {
 .main-cont {
     width: 800px;
     height: 800px;
-    background-color: aqua;
     display: flex;
     flex-direction: column;
 }
@@ -37,7 +36,7 @@ body {
 
 .head-box {
     background-color: yellow;
-    width: 320px;
+    width: 340px;
     height: 90px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -47,13 +46,13 @@ body {
 
 .screen {
     background-color: black;
-    width: 320px;
+    width: 340px;
     height: 90px;
 }
 
 .calc-cont {
     background-color: lightslategray;
-    width: 320px;
+    width: 340px;
     height: 350px;
     display: flex;
     flex-direction: row;
@@ -81,13 +80,13 @@ body {
 .veritcal-button {
     background-color: orange;
     height: 100%;
-    width: 70%;
+    width: 75%;
 }
 
-.orizonatl-button {
+.orizonatal-button {
     background-color: purple;
     height: 100%;
-    width: 30%;
+    width: 25%;
 }
 
 /* INIZIO CONTENUTI CALCOLATRICE */
@@ -102,18 +101,36 @@ body {
 
 .button-v {
     background-color: #09D297;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     border-radius: 10px;
     margin: 5px;
 }
 
 .button-g {
     background-color: #09D297;
-    height: 60px;
-    width: 130px;
+    height: 70px;
+    width: 150px;
     border-radius: 10px;
     margin: 5px;
 }
 
 /* FINE PARTE FLEX ROW PULSANTI NUMERICI SINISTRA CALCOLATRICE*/
+
+/* INIZIO PARTE FLEX COLUMN PULSANTI NUMERICI DESTRA CALCOLATRICE*/
+
+.orizontal-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.button-o {
+    background-color: red;
+    height: 54px;
+    width: 60px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+/* FINE PARTE FLEX COLUMN PULSANTI NUMERICI DESTRA CALCOLATRICE*/
