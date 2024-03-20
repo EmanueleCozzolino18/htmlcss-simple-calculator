@@ -11,6 +11,12 @@ body {
     align-items: center;
 }
 
+/* FONTO TEXT LOGO */
+@font-face {
+    font-family: eurostile;
+    src: url(../font/eurostile.TTF);
+}
+
 /* INZIO CLASSI SCHELETRO CALCOLATRICE */
 
 .main-cont {
@@ -31,7 +37,7 @@ body {
 
 .head-box {
     background-color: yellow;
-    width: 300px;
+    width: 320px;
     height: 90px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -41,13 +47,13 @@ body {
 
 .screen {
     background-color: black;
-    width: 300px;
+    width: 320px;
     height: 90px;
 }
 
 .calc-cont {
     background-color: lightslategray;
-    width: 300px;
+    width: 320px;
     height: 350px;
     display: flex;
     flex-direction: row;
@@ -59,8 +65,8 @@ body {
 .logo-pos {
     text-align: center;
     line-height: 90px;
-    font-size: 25px;
-    font-family: sans-serif;
+    font-size: 40px;
+    font-family: eurostile;
 }
 
 .calc-text {
@@ -83,3 +89,31 @@ body {
     height: 100%;
     width: 30%;
 }
+
+/* INIZIO CONTENUTI CALCOLATRICE */
+
+/* FLEX ROW PULSANTI NUMERICI SINISTRA CALCOLATRICE*/
+.vertical-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.button-v {
+    background-color: #09D297;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.button-g {
+    background-color: #09D297;
+    height: 60px;
+    width: 130px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+/* FINE PARTE FLEX ROW PULSANTI NUMERICI SINISTRA CALCOLATRICE*/
