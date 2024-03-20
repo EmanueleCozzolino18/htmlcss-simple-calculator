@@ -35,7 +35,8 @@ body {
 }
 
 .head-box {
-    background-color: yellow;
+    background: rgb(187, 187, 187);
+    background: linear-gradient(90deg, rgba(187, 187, 187, 1) 12%, rgba(207, 207, 192, 0.6615021008403361) 51%);
     width: 340px;
     height: 90px;
     border-top-left-radius: 15px;
@@ -51,11 +52,14 @@ body {
 }
 
 .calc-cont {
-    background-color: lightslategray;
+    background: rgb(187, 187, 187);
+    background: linear-gradient(90deg, rgba(187, 187, 187, 1) 12%, rgba(207, 207, 192, 0.6615021008403361) 51%);
     width: 340px;
-    height: 350px;
+    height: 340px;
     display: flex;
     flex-direction: row;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 /* FINE CLASSI SCHELETRO CALCOLATRICE */
@@ -78,13 +82,11 @@ body {
 }
 
 .veritcal-button {
-    background-color: orange;
     height: 100%;
     width: 75%;
 }
 
 .orizonatal-button {
-    background-color: purple;
     height: 100%;
     width: 25%;
 }
@@ -100,19 +102,36 @@ body {
 }
 
 .button-v {
-    background-color: #09D297;
+    background-color: #BBBBBB;
     height: 70px;
     width: 70px;
     border-radius: 10px;
     margin: 5px;
+    font-family: eurostile;
+    font-size: 35px;
 }
 
 .button-g {
-    background-color: #09D297;
     height: 70px;
     width: 150px;
     border-radius: 10px;
     margin: 5px;
+    font-family: eurostile;
+    font-size: 35px;
+}
+
+.color-white {
+    background-color: #BBBBBB;
+}
+
+.color-orange {
+    background-color: orange;
+    color: white;
+}
+
+.color-blue {
+    background-color: #77A8B0;
+    color: white;
 }
 
 /* FINE PARTE FLEX ROW PULSANTI NUMERICI SINISTRA CALCOLATRICE*/
@@ -126,11 +145,12 @@ body {
 }
 
 .button-o {
-    background-color: red;
     height: 54px;
     width: 60px;
     border-radius: 10px;
     margin: 5px;
+    font-family: eurostile;
+    font-size: 25px;
 }
 
 /* FINE PARTE FLEX COLUMN PULSANTI NUMERICI DESTRA CALCOLATRICE*/
